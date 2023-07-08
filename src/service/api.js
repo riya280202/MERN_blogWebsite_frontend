@@ -7,7 +7,7 @@ import {
 
 import { getAccessToken, getType } from "../utils/common-utils.js";
 
-const API_URL = "";
+const API_URL = "https://bloggingservices-backend.onrender.com";
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
